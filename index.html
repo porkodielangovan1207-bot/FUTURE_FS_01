@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav>
+        <h2 class="logo">portfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section hero">
+    <div class="hero-content">
+        <h1>Hello, I'm Porkodi </h1>
+        <h3>Computer Science Student & Aspiring Full Stack Developer</h3>
+        <p>Building real-world projects and learning full-stack development.”</p>
+        <a href="#projects" class="btn">View Projects</a>
+
+</section>
+<!-- ABOUT -->
+<section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="about-content">
+        <p>I am a passionate full-stack developer who loves building web applications and learning new technologies. I enjoy working with modern web technologies.</p>
+        <h3>Skills</h3>
+        <ul class="skills">
+            <li>Python</li>
+            <li>C Programming</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects" class="section projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+
+        <!-- Horoscope Creator Prototype -->
+        <div class="card">
+            <h3>🔮 Horoscope Creator Prototype</h3>
+            <p>An interactive horoscope generator where users input their birth date and receive daily personalized horoscope predictions. Built with HTML, CSS, and JavaScript.</p>
+            <p id="horoscope-result" style="margin-top:10px; font-weight:bold;"></p>
+        </div>
+
+        <!-- CozyCafe Online Shopping Website -->
+        <div class="card">
+            <h3>☕ CozyCafe Online Shopping Website</h3>
+            <p>A complete café management and online shopping system with order handling, CRUD functionality, and database integration using Java Servlets and MySQL.</p>
+        </div>
+
+    </div>
+</section>
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me via email or GitHub.</p>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <a href="#home" class="btn-top">⬆ Back to Top</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
